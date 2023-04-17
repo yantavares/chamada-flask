@@ -7,7 +7,9 @@ Este é um simples aplicativo Flask que permite armazenar IDs de estudantes em u
 Certifique-se de ter o Python3 instalado em sua máquina.
 Clone este repositório: git clone https://github.com/seu-usuario/flask-armazenamento-ids-estudantes.git
 Instale as dependências do projeto: pip install -r requirements.txt
-Execução
+
+## Execução
+
 Para iniciar o aplicativo Flask, execute o seguinte comando no diretório do projeto:
 
 ```py
