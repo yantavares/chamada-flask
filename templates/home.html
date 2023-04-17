@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chamada</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Chamada</h1>
+    <form action="/add_student" method="post">
+        <label for="id">Insira sua matrícula: </label>
+        <input type="text" name="id" id="id">
+        <input class="btn" type="submit" value="Enviar">
+    </form>
+    <form action="/export_csv">
+        <input class="btn" type="submit" value="Exportar CSV">
+    </form>
+</body>
+</html>
+
