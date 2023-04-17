@@ -20,7 +20,7 @@ O aplicativo será executado em http://localhost:5000/.
 
 ## Uso
 
-Para acessar a página inicial, você precisará inserir uma senha. A senha padrão é mysecretkey, mas você pode alterá-la editando a variável app.config['SECRET_KEY'] no arquivo app.py.
+Para acessar a página inicial, você precisará inserir uma senha. A senha padrão é "teste123", mas você pode alterá-la editando a variável app.config['SECRET_KEY'] no arquivo app.py.
 
 Na página inicial, você pode adicionar novos IDs de estudantes usando o formulário e o botão "Adicionar". Os IDs de estudantes são armazenados em um arquivo CSV chamado students.csv.
 
